@@ -2,12 +2,20 @@
   "name": "appfiliate-react-native",
   "version": "1.0.0",
   "description": "Lightweight install attribution for mobile app affiliate marketing",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
   "homepage": "https://appfiliate.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/appfiliate-react-native-sdk"
+    "url": "https://github.com/appfiliate/appfiliate-react-native-sdk"
   },
   "keywords": [
     "react-native",
@@ -22,9 +30,9 @@
     "react-native": ">=0.72.0",
     "@react-native-async-storage/async-storage": ">=1.19.0"
   },
-  "peerDependenciesMeta": {
-    "@react-native-async-storage/async-storage": {
-      "optional": true
-    }
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.72.0"
   }
 }
