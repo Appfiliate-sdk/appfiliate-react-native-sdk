@@ -1,6 +1,8 @@
 # Appfiliate React Native SDK
 
-Lightweight install attribution for mobile app affiliate marketing. Pure JavaScript/TypeScript -- no native modules required.
+Creator attribution SDK for mobile app affiliate marketing. Track which creators, influencers, and campaigns drive installs and revenue for your React Native app. Pure JavaScript/TypeScript — no native modules required.
+
+**[Website](https://appfiliate.io)** | **[Documentation](https://docs.appfiliate.io)** | **[Blog](https://appfiliate.io/blog)** | **[Sign Up Free](https://app.appfiliate.io/signup)**
 
 ## Installation
 
@@ -107,6 +109,14 @@ The SDK collects non-identifying device signals (screen size, timezone, language
 
 - React Native 0.72+
 - iOS 15+ / Android 5.0+
+
+## Resources
+
+- [Getting started guide](https://docs.appfiliate.io/quick-start)
+- [How to set up an affiliate program for your app](https://appfiliate.io/blog/how-to-set-up-affiliate-program-mobile-app)
+- [Appfiliate vs AppsFlyer vs Branch](https://appfiliate.io/blog/appfiliate-vs-appsflyer-vs-branch)
+- [What is a creator attribution SDK?](https://appfiliate.io/blog/creator-attribution-sdk)
+- [How attribution works without IDFA](https://appfiliate.io/blog/mobile-app-install-attribution-without-idfa)
 
 ## License
 
